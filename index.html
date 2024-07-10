@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,16 @@
 
 <body>
     <div class="container">
-        <table>
-            <img src="img/logo braun.png" alt="" srcset="">
-            <br>
-            <input type="text" id="display" disabled style="margin: 10px;"><br>
+        <img src="img/logo braun.png" alt="" srcset="">
+        <br>
+        <div class="input">
+        <input type="text" id="display" disabled style="margin: 10px;"><br>
+        </div>
+        <div class="onoffbutton">
             <button id="botonst" onclick="pwron()"></button><button id="botonoff" onclick="pwoff()"></button>
-            <div id="butzne">
+        </div>
+        <div id="butzne">
+            <table>
                 <tr>
                     <td><button onclick="appendCharacter('7')" id="buttoner7">7</button></td>
                     <td><button onclick="appendCharacter('8')" id="buttoner8">8</button></td>
@@ -40,8 +45,8 @@
                     <td><button onclick="calculateResult()" id="buttoner=">=</button></td>
                     <td><button onclick="appendCharacter('+')" id="buttoner+">+</button></td>
                 </tr>
-            </div>
-        </table>
+            </table>
+        </div>
     </div>
 </body>
 
