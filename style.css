@@ -4,12 +4,14 @@ body {
 }
 
 .container {
+  background: #000000;
   margin-top: 25%;
   background-color: #2A2A2A;
-  padding-top: 25px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 50px;
+  border-radius: 5%;
 }
 
 #botonst {
