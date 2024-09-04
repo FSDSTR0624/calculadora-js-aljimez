@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: #000000;
+  margin-top: 25%;
+  background-color: #2A2A2A;
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 50px;
+  border-radius: 5%;
+}
+
+#botonst {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #03800b;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  font-size: 11px;
+  line-height: 32px;
+  text-transform: uppercase;
+  float: left;
+}
+
+#botonoff {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  background-color: #b00b0b;
+  padding: 10px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  font-size: 11px;
+  line-height: 32px;
+  text-transform: uppercase;
+  float: left;
+}
+.botns {
+  margin-left: 20%;
+}
+.onoffbutton{
+  margin-right: 40px;
+}
+
+td > button{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+background-color: #000000;
+color: white;
+}

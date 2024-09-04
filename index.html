@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/logo braun.png" alt="" srcset="" style="width: 40px; padding-left: 5px;">
+        <br>
+        <div class="input">
+        <input type="text" id="display" disabled style="margin: 10px; width: 150px;"><br>
+        </div>
+        <div class="botns">
+        <div class="onoffbutton">
+            <button id="botonst" onclick="pwron()"></button><button id="botonoff" onclick="pwoff()"></button>
+        </div>
+        <div id="butzne">
+            <table>
+                <tr>
+                    <td><button onclick="appendCharacter('7')" id="buttoner7">7</button></td>
+                    <td><button onclick="appendCharacter('8')" id="buttoner8">8</button></td>
+                    <td><button onclick="appendCharacter('9')" id="buttoner9">9</button></td>
+                    <td><button onclick="appendCharacter('-')" id="buttoner-" style="background-color:#DDBD97">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="appendCharacter('4')" id="buttoner4">4</button></td>
+                    <td><button onclick="appendCharacter('5')" id="buttoner5">5</button></td>
+                    <td><button onclick="appendCharacter('6')" id="buttoner6">6</button></td>
+                    <td><button onclick="appendCharacter('/')" id="buttonerdiv" style="background-color:#DDBD97">/</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="appendCharacter('1')" id="buttoner1">1</button></td>
+                    <td><button onclick="appendCharacter('2')" id="buttoner2">2</button></td>
+                    <td><button onclick="appendCharacter('3')" id="buttoner3">3</button></td>
+                    <td><button onclick="appendCharacter('*')" id="buttonermul" style="background-color:#DDBD97">x</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="clearDisplay()" id="buttonerC" style="background-color:#DDBD97">C</button></td>
+                    <td><button onclick="appendCharacter('0')" id="buttoner0">0</button></td>
+                    <td><button onclick="calculateResult()" id="buttoner=" style="background-color: #FFDA6E;">=</button></td>
+                    <td><button onclick="appendCharacter('+')" id="buttoner+" style="background-color:#DDBD97">+</button></td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
